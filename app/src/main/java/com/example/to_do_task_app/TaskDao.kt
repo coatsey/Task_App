@@ -10,11 +10,9 @@ interface TaskDao {
     fun getAlphabetizedTasks(): Flow<List<Task>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(task: Task)
+    fun insert(task: Task)
 
     @Query("DELETE FROM task_table")
-    suspend fun deleteAll()
+    fun deleteAll()
 
-    @Delete
-    suspend fun delete(task: Task)
 }
