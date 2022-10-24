@@ -1,3 +1,3 @@
-# Task_App
+# Task App
 
-This task mangaing app is bulit using kotlin. This app can add and delete task by using Room Database. This app uses LiveData and RecyclerView to be able to update your tasks in live time.
+This task mangaing app is bulit using kotlin. This app can add and delete task by using Room Database. This app used LiveData, Room Database, DAO, ViewModels and RecyclerView among other things. I used google codelabs for the idea but changed things to make it better. 
